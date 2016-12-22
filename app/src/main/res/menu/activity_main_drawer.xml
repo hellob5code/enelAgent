@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/myaccount"
+            android:icon="@drawable/u_s_e_ricon"
+            android:title="MY ACCOUNT" />
+        <item
+            android:id="@+id/menugames"
+            android:icon="@drawable/gamepad"
+            android:title="GAMES" />
+        <item
+            android:id="@+id/tickethistory"
+            android:icon="@drawable/tags"
+            android:title="TICKET HISTORY" />
+<!--        <item
+            android:id="@+id/menu_qr_code"
+            android:icon="@drawable/qr_code_scan"
+            android:title="SCAN TICKETS" />
+            -->
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/question_i_c_o_n"
+            android:title="@string/help" />
+
+
+    </group>
+
+
+</menu>

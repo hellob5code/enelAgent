@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="after_passwor_request_onsuccess">Please check your email for next step</string>
+</resources>

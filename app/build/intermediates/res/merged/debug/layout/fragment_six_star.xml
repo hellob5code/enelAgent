@@ -1,0 +1,129 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shixels.activity.Game.SixStar">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+
+            android:textColor="@color/blueText2"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/sixstarInstction"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:id="@+id/gameSeleted">
+            <LinearLayout
+                android:layout_width="40dp"
+                android:background="@drawable/numbers_bakground"
+                android:layout_height="40dp">
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="40dp"
+                android:background="@drawable/numbers_bakground"
+                android:layout_marginLeft="10dp"
+                android:layout_height="40dp">
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="40dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/numbers_bakground"
+                android:layout_height="40dp"></LinearLayout>
+            <LinearLayout
+                android:layout_width="40dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/numbers_bakground"
+                android:layout_height="40dp">
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="40dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/numbers_bakground"
+                android:layout_height="40dp">
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="40dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/numbers_bakground"
+                android:layout_height="40dp">
+
+            </LinearLayout>
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+           android:orientation="vertical">
+               <com.google.android.flexbox.FlexboxLayout
+                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/selecteNum"
+                   app:flexWrap="wrap"
+                   app:justifyContent="center"
+                   app:alignItems="center"
+                   app:alignContent="center">
+
+               </com.google.android.flexbox.FlexboxLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/pickforme_btn"
+                    android:id="@+id/pic4me"
+                    android:text="@string/pick4me"
+                    android:textStyle="bold" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:background="@drawable/clear_btn"
+                    android:id="@+id/clear"
+                    android:text="Clear"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="36dp"
+                android:layout_marginRight="36dp"
+                android:textColor="@color/white"
+                android:text="Submit"
+                android:background="@drawable/submit_btn"
+                android:id="@+id/submit"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</FrameLayout>

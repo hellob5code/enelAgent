@@ -1,0 +1,236 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.shixels.activity.Game.CashPage">
+
+    <!-- TODO: Update blank fragment layout -->
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:id="@+id/mainContent"
+     android:background="@color/white"
+     android:orientation="vertical">
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/myPicks"
+         android:textSize="20dp"
+         android:textColor="@color/blueText2"
+         android:layout_gravity="center_horizontal"
+         android:textStyle="bold" />
+
+
+     <com.google.android.flexbox.FlexboxLayout
+         xmlns:app="http://schemas.android.com/apk/res-auto"
+         android:layout_width="match_parent"
+         android:layout_marginTop="20dp"
+         android:layout_marginBottom="20dp"
+         app:justifyContent="center"
+         android:layout_marginLeft="@dimen/activity_horizontal_margin"
+         android:layout_marginRight="@dimen/activity_horizontal_margin"
+         android:id="@+id/picks"
+         android:layout_height="wrap_content">
+
+     </com.google.android.flexbox.FlexboxLayout>
+
+
+     <View android:id="@+id/separator"
+         android:background="@color/blueText"
+         android:layout_width = "fill_parent"
+         android:layout_marginLeft="@dimen/activity_horizontal_margin"
+         android:layout_marginRight="@dimen/activity_horizontal_margin"
+         android:layout_height="1dip"
+         android:layout_marginTop="5dp"
+         android:layout_centerVertical ="true"
+         android:layout_alignParentTop="true"/>
+
+     <RelativeLayout
+         android:paddingBottom="5dp"
+         android:paddingLeft="5dp"
+         android:layout_width="match_parent"
+         android:orientation="horizontal"
+         android:layout_marginLeft="@dimen/activity_horizontal_margin"
+         android:layout_marginRight="@dimen/activity_horizontal_margin"
+         android:layout_marginTop="10dp"
+         android:layout_height="wrap_content">
+
+         <mehdi.sakout.fancybuttons.FancyButton
+             xmlns:fancy="http://schemas.android.com/apk/res-auto"
+             android:layout_alignParentLeft="true"
+             android:layout_width="wrap_content"
+             fancy:fb_fontIconSize="35dp"
+             fancy:fb_fontIconResource="&#xf02c;"
+             fancy:fb_defaultColor="@color/white"
+             fancy:fb_textColor="@color/blueText2"
+             fancy:fb_text=""
+             android:layout_height="wrap_content"
+             android:layout_marginRight="40dp"/>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerInParent="true"
+             android:id="@+id/priceText"
+             android:textColor="@color/blueText"
+             android:textSize="20dp"
+             android:text="@string/price"/>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="@color/blueText"
+             android:id="@+id/price"
+             android:layout_alignParentRight="true"
+             android:layout_marginLeft="30dp"
+             android:textSize="20dp"
+             android:text="# 500"/>
+
+
+     </RelativeLayout>
+
+     <View
+         android:background="@color/blueText"
+         android:layout_width = "fill_parent"
+         android:layout_marginRight="@dimen/activity_horizontal_margin"
+         android:layout_marginLeft="@dimen/activity_horizontal_margin"
+         android:layout_height="1dip"
+         android:id="@+id/xpline"
+         android:visibility="gone"
+         android:layout_marginTop="5dp"
+         android:layout_centerVertical ="true"
+         android:layout_alignParentTop="true"/>
+
+     <RelativeLayout
+         android:paddingBottom="5dp"
+         android:paddingLeft="5dp"
+         android:layout_width="match_parent"
+         android:id="@+id/xpContainer"
+         android:visibility="gone"
+         android:orientation="horizontal"
+         android:layout_marginLeft="@dimen/activity_horizontal_margin"
+         android:layout_marginRight="@dimen/activity_horizontal_margin"
+         android:layout_marginTop="10dp"
+         android:layout_height="wrap_content">
+
+
+         <mehdi.sakout.fancybuttons.FancyButton
+             xmlns:fancy="http://schemas.android.com/apk/res-auto"
+             android:layout_alignParentLeft="true"
+             android:layout_width="wrap_content"
+             fancy:fb_fontIconSize="35dp"
+             fancy:fb_fontIconResource="&#xf02c;"
+             fancy:fb_defaultColor="@color/white"
+             fancy:fb_textColor="@color/blueText2"
+             fancy:fb_text=""
+             android:layout_height="wrap_content"
+             android:layout_marginRight="40dp"/>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerInParent="true"
+             android:id="@+id/xplayText"
+             android:textColor="@color/blueText"
+             android:textSize="20dp"
+             android:text="@string/Xtra"/>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="@color/blueText"
+             android:id="@+id/xprice"
+             android:layout_alignParentRight="true"
+             android:layout_marginLeft="30dp"
+             android:textSize="20dp"
+             android:text="# 500"/>
+
+
+     </RelativeLayout>
+
+
+
+     <View android:id="@+id/separator1"
+         android:background="@color/blueText"
+         android:layout_width = "fill_parent"
+         android:layout_marginRight="@dimen/activity_horizontal_margin"
+         android:layout_marginLeft="@dimen/activity_horizontal_margin"
+         android:layout_height="1dip"
+         android:layout_marginTop="5dp"
+         android:layout_centerVertical ="true"
+         android:layout_alignParentTop="true"/>
+     <RelativeLayout
+         android:paddingBottom="5dp"
+         android:paddingLeft="5dp"
+         android:layout_width="match_parent"
+         android:orientation="horizontal"
+         android:layout_marginLeft="@dimen/activity_horizontal_margin"
+         android:layout_marginRight="@dimen/activity_horizontal_margin"
+         android:layout_marginTop="5dp"
+         android:layout_height="wrap_content">
+
+         <mehdi.sakout.fancybuttons.FancyButton
+             xmlns:fancy="http://schemas.android.com/apk/res-auto"
+             android:layout_alignParentLeft="true"
+             fancy:fb_fontIconSize="35dp"
+             android:layout_width="wrap_content"
+             fancy:fb_fontIconResource="&#xf07a;"
+             fancy:fb_defaultColor="@color/white"
+             fancy:fb_textColor="@color/blueText2"
+             fancy:fb_text=""
+             android:layout_height="wrap_content"
+             android:layout_marginRight="40dp"/>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerInParent="true"
+             android:textColor="@color/blueText"
+             android:textSize="20dp"
+             android:text="@string/total"/>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="@color/blueText"
+             android:id="@+id/total"
+             android:layout_alignParentRight="true"
+             android:layout_marginLeft="30dp"
+             android:textSize="20dp"
+             android:text="# 500"/>
+
+
+     </RelativeLayout>
+
+     <View
+         android:background="@color/blueText"
+         android:layout_width = "fill_parent"
+         android:layout_marginRight="@dimen/activity_horizontal_margin"
+         android:layout_marginLeft="@dimen/activity_horizontal_margin"
+         android:layout_height="1dip"
+         android:layout_marginTop="5dp"
+         android:layout_centerVertical ="true"
+         android:layout_alignParentTop="true"/>
+
+
+
+     <Button
+         android:layout_width="250dp"
+         android:layout_marginTop="10dp"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+         android:text="@string/cash"
+         android:textColor="@color/white"
+         android:textSize="20sp"
+         android:background="@drawable/submit_btn"
+         android:clickable="true"
+         android:layout_centerInParent="true"
+         android:id="@+id/cash" />
+
+
+
+ </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings" />
+    <string name="app_name">Enel Lotto Agent App</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">TestDemo</string>
+    <string name="serialportnumber">Serial Number:</string>
+    <string name="baudrate">Baud Rate:</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="exit">Exit</string>
+    <string name="sectornumber">Sector Number:</string>
+    <string name="blocknumber">Block Number:</string>
+    <string name="receivedata">Card Type:</string>
+    <string name="senddata">Card ID:</string>
+    <string name="blockdata">Block Data:</string>
+    <string name="readblock">Read Block</string>
+    <string name="writeblock">Write Block</string>
+    <string name="autoreadwrite">Auto Read Write Block</string>
+    <string name="opensuccess">Open success!</string>
+    <string name="systemprompt">System prompt</string>
+    <string name="confirmexit">you sure exit?</string>
+    <string name="yes">Yes</string>
+    <string name="cancal">Cancal</string>
+    <string name="str_print">PrinterTest</string>
+    <string name="str_psam">PSAMTest</string>
+    <string name="str_rfid">RFIDTest</string>
+    <string name="str_camera">CameraTest</string>
+    <string name="str_qrcode">QrCode/BarCode</string>
+    <string name="str_wireless">SerialPort</string>
+    <string name="str_finger_print">Finger Printer</string>
+    <string name="str_powercord">Powercord</string>
+    <string name="btpsam1">SAM1</string>
+    <string name="btpsam2">SAM2</string>
+    <string name="btn1">CardReset</string>
+    <string name="btn2">GetRandom</string>
+    <string name="btn3">SelectMaster</string>
+    <string name="openpic">Open Picture</string>
+    <string name="printpic">Print Picture</string>
+    <string name="qrcode">QR CODE</string>
+    <string name="barcode">BAR CODE</string>
+    <string name="timing">Timed Print</string>
+    <string name="print">Print</string>
+    <string name="str_printunicode">Print Unicode</string>
+    <string name="str_send_cmd">CMD</string>
+    <string name="wordtopic">Words Turn Pictures</string>
+    <string name="str_cannotcreatebar">Can Not Create Barcode</string>
+    <string name="sendsuccess">Send success!</string>
+    <string name="camera">Photo</string>
+    <string name="hex">Hex</string>
+    <string name="send">Send</string>
+    <string name="autosend">Auto Send</string>
+    <string name="error_configuration">Please configure your serial port first.</string>
+    <string name="error_security">You do not have read/write permission to the serial port.</string>
+    <string name="error_unknown">The serial port can not be opened for an unknown reason.</string>
+    <string name="selectserialport">Please select the serial number</string>
+    <string name="currentserialport">The currnet serial number:</string>
+    <string name="selectbaudrate">Please select the baud rate</string>
+    <string name="currentbaudrate">The current baud rate:</string>
+    <string name="receivebuf">Receiver Data:</string>
+    <string name="sendbuf">Send Data:</string>
+    <string name="openpower">Open Power</string>
+    <string name="closepower">Close Power</string>
+    <string name="openautoread">OpenAutoRead</string>
+    <string name="closeautoread">CloseAutoRead</string>
+    <string name="btnprinton">printer power on</string>
+    <string name="btnprintoff">printer power off</string>
+    <string name="btnrfidon">RFID power on</string>
+    <string name="btnrfidoff">RFID power off</string>
+    <string name="btnwifion">WIFI power on</string>
+    <string name="btnwifioff">WIFI power off</string>
+    <string name="btnrj45on">RJ45 LAN Power On</string>
+    <string name="btnrj45off">RJ45 LAN Power Off</string>
+    <string name="newline">New Line</string>
+
+
+    <string name="str_button_send">Send</string>
+    <string name="str_serialport_name">Serialport</string>
+    <string name="str_serialport_baud">Baud rate</string>
+    <string name="str_serialport_data">Data bit</string>
+    <string name="str_serialport_stop">Stop bit</string>
+    <string name="str_serialport_flowcontrol">Flow control</string>
+    <string name="str_serialport_check">Check type</string>
+    <string name="str_serialport_space">Space(ms)</string>
+    <string name="str_serialport_save">Save</string>
+    <string name="str_menu_serialport_set">Setting</string>
+    <string name="str_menu_serialport_clean">Clean Statistics</string>
+    <string name="str_menu_serialport_open">Open</string>
+    <string name="str_menu_serialport_close">Close</string>
+    <string name="str_serialport_hexrec">Hex</string>
+    <string name="str_serialport_hexsend">Hex</string>
+
+    <!-- BarCode -->
+    <string name="action_1d">barcode modules set</string>
+    <string name="action_reset">Restore Factory Settings</string>
+    <string name="action_reset_desc">reset all settings to factory state, clearing the user to set parameters</string>
+    <string name="action_datatype">Setting Data Format</string>
+    <string name="action_datatype_desc">Set the data format is: barcode data + carriage return line, to facilitate data analysis</string>
+    <string name="action_encodingtype">Encoding Type</string>
+    <string name="action_encodingtype_desc">Set the qr code decoding encoding type</string>
+    <string name="action_setsuccess">Settings success</string>
+    <string name="action_2d">Qr modules set</string>
+    <string name="action_encoding_tip">Please select a code type</string>
+    <string name="open_scan">Scan</string>
+    <string name="empty">Empty</string>
+    <string name="popup_title">Select</string>
+    <string name="popup_message">Device quit, you have to exit the application do?</string>
+    <string name="popup_yes">OK</string>
+    <string name="popup_no">Cancel</string>
+    <!-- BarCode -->
+
+    <string name="str_bat_tip">Low battery is less than</string>
+
+
+    <string name="str_printer_state">STATE</string>
+    <string name="str_printer_printing">Printing</string>
+    <string name="str_printer_lowpower">Low power</string>
+    <string name="str_printer_nopaper">No paper</string>
+    <string name="str_printer_bufferfull">Buffer full</string>
+    <string name="str_printer_buffernull">Buffer null</string>
+    <string name="str_printer_hightemperature">High temperature</string>
+
+    <string name="prompt_planets">Match Level</string>
+    <string name="hello_blank_fragment">Hello new Fragment</string>
+    <string-array name="FpCount">
+        <item>1700</item>
+        <item>2000</item>
+        <item>3000</item>
+    </string-array>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="after_passwor_request_onsuccess">Please check your email for next step</string>
+    <string name="agentApp">AGENT APP</string>
+    <string name="login">Login</string>
+    <string name="play">Play</string>
+    <string name="threestarInstction">CHOOSE 3 NUMBERS (1-41)</string>
+    <string name="fivestarInstction">CHOOSE 5 NUMBERS (1-36)</string>
+    <string name="sixstarInstction">CHOOSE 6 NUMBERS (1-49)</string>
+    <string name="pick4me">Pick 4 me</string>
+    <string name="myPicks">MY PICKS</string>
+    <string name="cash">CASH</string>
+    <string name="price">PRICE</string>
+    <string name="total">TOTAL</string>
+    <string name="solddby">Sold by</string>
+    <string name="nextDrawText">Next Draw</string>
+    <string name="jackpot">JACKPOT AMOUNT</string>
+    <string name="threestarjackpot">1,000,000.00</string>
+    <string name="fivestarjackpot">5,000,000.00</string>
+    <string name="sixstarjackpot">10,000,000.00</string>
+    <string name="help"><![CDATA[ABOUT & HELP]]></string>
+    <string name="unconfirm">Confirm Now</string>
+    <string name="ageWarn">I AM NOT UNDER 18 YEARS OLD</string>
+    <string name="history">TICKET HISTORY</string>
+    <string name="usernameText">Username:</string>
+    <string name="settingProfile">YOUR PROFILE</string>
+    <string name="FullNameText">FULL NAME:</string>
+    <string name="phonText">PHONE NUMBER:</string>
+    <string name="emailText">EMAIL ADDRESS:</string>
+    <string name="porfSet">PROFILE SETTINGS</string>
+    <string name="changepwd">CHANGE PASSWORD</string>
+    <string name="logout">LOGOUT</string>
+    <string name="update">Update Profile</string>
+    <string name="helpTitle">ABOUT US</string>
+    <string name="about">We are a private Nigerian limited liability lottery company fully regulated by the Enugu State Lotteries Board and licensed under the Enugu State Lotteries Law.  \n \n Our flagship games such as 3 Star Lotto, 5 Star Lotto and 6 Star Xtra allow you to win prizes and money ranging from ₦1,000 to ₦15 million. Sky’s the limit once you add the available multipliers to the mix! \n \n   Enel Star Lotto also finds it extremely important to give back to the community. Our sustainable development division ensures that a portion of the money you play with goes towards funding the training of local craftsmen and artisans. So not only could you win the jackpot, but you also automatically win by enabling the community learn the necessary skills to make a difference.\n \n  When you play, everybody wins!!!</string>
+    <string name="errorSelectThree">You can only select 3 numbers</string>
+    <string name="errorSelectsix">You can only select six numbers</string>
+    <string name="errorSelectfive">You can only select 5 numbers</string>
+    <string name="clearScrean">Clear screan and \\n Try again</string>
+    <string name="xplaHundred">DOUBLE (+N100)</string>
+    <string name="xplaTwoHundred">TRIPLE (+N200)</string>
+    <string name="xplathreeHundred">QUADRUPLE (+N300)</string>
+    <string name="nothanks">NO THANKS</string>
+    <string name="questionandComplain"><![CDATA[Questions & Complaints]]></string>
+    <string name="title">Title</string>
+    <string name="contactus">Contact Us</string>
+    <string name="Xtra">XtraPlay</string>
+
+</resources>

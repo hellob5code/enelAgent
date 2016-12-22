@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/btnprintoff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btnprintoff" />
+            <Button android:id="@id/btnprinton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btnprinton" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/btnrfidoff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btnrfidoff" />
+            <Button android:id="@id/btnrfidon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btnrfidon" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/btnwifioff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btnwifioff" />
+            <Button android:id="@id/btnwifion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btnwifion" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/btnrj45off" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btnrj45off" />
+            <Button android:id="@id/btnrj45on" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btnrj45on" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

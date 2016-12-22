@@ -1,0 +1,209 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    tools:context="com.shixels.activity.profile.SettingProfile">
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:id="@+id/progress"
+        android:theme="@style/AppTheme.WhiteAccent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:id="@+id/holder"
+        android:visibility="gone"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content">
+                <View
+                    android:layout_width="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="1dp"
+                    android:background="#413174"/>
+                <TextView
+                    android:textSize="25sp"
+                    android:textColor="#d4323a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settingProfile"/>
+                <View
+                    android:layout_width="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="1dp"
+                    android:background="#413174"/>
+
+
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@id/textView1"
+                    android:textSize="20sp"
+                    android:textColor="@color/settextClor"
+                    android:text="@string/usernameText"/>
+
+                <EditText
+                    android:layout_below="@id/textView1"
+                    android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                    android:id="@+id/username" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@id/textView2"
+                    android:textSize="20sp"
+                    android:textColor="@color/settextClor"
+                    android:text="@string/FullNameText"/>
+
+                <EditText
+                    android:layout_below="@id/textView2"
+                    android:layout_width="match_parent"
+                    android:id="@+id/fullname"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@id/textView3"
+                    android:textSize="20sp"
+                    android:inputType="phone"
+                    android:textColor="@color/settextClor"
+                    android:text="@string/phonText"/>
+
+                <EditText
+                    android:layout_below="@id/textView3"
+                    android:layout_width="match_parent"
+                    android:id="@+id/phon"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@id/textView4"
+                    android:textSize="20sp"
+                    android:textColor="@color/settextClor"
+                    android:text="@string/emailText"/>
+
+                <EditText
+                    android:layout_below="@id/textView4"
+                    android:layout_width="match_parent"
+                    android:enabled="false"
+                    android:id="@+id/email"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content">
+                <View
+                    android:layout_width="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="1dp"
+                    android:background="#413174"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25sp"
+                    android:textColor="#d4323a"
+                    android:text="@string/porfSet"/>
+                <View
+                    android:layout_width="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="1dp"
+                    android:background="#413174"/>
+
+
+            </LinearLayout>
+
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:layout_gravity="center_horizontal"
+                android:layout_width="200dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="50dp"
+                android:id="@+id/update"
+                fancy:fb_borderWidth="1dp"
+                fancy:fb_iconPaddingLeft="15dp"
+                fancy:fb_fontIconResource="&#xf13e;"
+                android:layout_marginBottom="20dp"
+                fancy:fb_textColor="@color/blueText2"
+                fancy:fb_defaultColor="@android:color/white"
+                fancy:fb_borderColor="@color/blueText2"
+                android:text="@string/update"/>
+
+
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:layout_gravity="center_horizontal"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:id="@+id/changepwd"
+                fancy:fb_borderWidth="1dp"
+                android:visibility="gone"
+                fancy:fb_iconPaddingLeft="15dp"
+                fancy:fb_fontIconResource="&#xf13e;"
+                android:layout_marginBottom="20dp"
+                fancy:fb_textColor="@color/blueText2"
+                fancy:fb_defaultColor="@android:color/white"
+                fancy:fb_borderColor="@color/blueText2"
+                android:text="@string/changepwd"/>
+
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:layout_gravity="center_horizontal"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                fancy:fb_borderWidth="1dp"
+                android:id="@+id/logout"
+                android:layout_marginBottom="20dp"
+                fancy:fb_fontIconResource="&#xf08b;"
+                fancy:fb_iconPaddingLeft="15dp"
+                fancy:fb_textColor="@color/blueText2"
+                fancy:fb_defaultColor="@android:color/white"
+                fancy:fb_borderColor="@color/blueText2"
+                android:text="@string/logout"/>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

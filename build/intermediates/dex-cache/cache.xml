@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-25.0.0_c0b271ccbbc80443738c9c1c9f99cc9bed3cc920.jar" />
+    </item>
+    <item
+        jar="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/pre-dexed/release/com.android.support-support-core-utils-25.0.0_c3e93fd784c76911d2eb0b2615370e66d9d1b105.jar" />
+    </item>
+    <item
+        jar="/Users/thankgodrichard/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jumboMode="false"
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/pre-dexed/release/support-annotations-25.0.0_cd675accb930ceae901729ed4743756a4cb4863a.jar" />
+    </item>
+    <item
+        jar="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/exploded-aar/com.github.yesidlazaro/GmailBackground/1.1/jars/libs/activation.jar"
+        jumboMode="false"
+        revision="25.0.0"
+        sha1="307f5fe0fb2cc7444f0adcce69e0bcfaad1ff84c">
+        <dex dex="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/pre-dexed/release/activation_69e68d3285f3a08ed58e4e1c6acf6475d31ade35.jar" />
+    </item>
+    <item
+        jar="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/exploded-aar/com.quickblox/quickblox-android-sdk-core/2.6.1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.0"
+        sha1="0846aa8e4e32b86e63f820877ab518e09ffa22d3">
+        <dex dex="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/pre-dexed/release/com.quickblox-quickblox-android-sdk-core-2.6.1_3035b91db8a42f48b4d6c75153c0fa355a9bb5ae.jar" />
+    </item>
+    <item
+        jar="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.0"
+        sha1="8a372c4191f80489770a231f7be4820b204b886a">
+        <dex dex="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/pre-dexed/release/com.android.support-cardview-v7-25.0.0_f2e78a356368f2e3d91b3b4375e7c75cee2e693c.jar" />
+    </item>
+    <item
+        jar="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/pre-dexed/release/com.android.support-animated-vector-drawable-25.0.0_518eddf21902bfe98d28e1efc024d0fb758c2f97.jar" />
+    </item>
+    <item
+        jar="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/pre-dexed/release/internal_impl-25.0.0_044b8843bd4d2c5967298ba6271e033439252493.jar" />
+    </item>
+    <item
+        jar="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/exploded-aar/com.quickblox/quickblox-android-sdk-customobjects/2.6.1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.0"
+        sha1="ef1307c7f41fd37be6fb3f842197c65027a3df33">
+        <dex dex="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/pre-dexed/release/com.quickblox-quickblox-android-sdk-customobjects-2.6.1_57b0de6a0fdcf7b72e5eeefca62ab968b3ec9138.jar" />
+    </item>
+    <item
+        jar="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/pre-dexed/release/com.android.support-support-core-ui-25.0.0_aee6165dc46ae848687adc8f057cdccb9e3d1d33.jar" />
+    </item>
+    <item
+        jar="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/pre-dexed/release/internal_impl-25.0.0_9da6ae7c58c4c128f0d83918722a40b448d6174b.jar" />
+    </item>
+    <item
+        jar="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.0"
+        sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
+        <dex dex="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/pre-dexed/release/com.android.support-transition-25.0.0_25e8823d83f21597f26c33cb9faa817652a62812.jar" />
+    </item>
+    <item
+        jar="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.0"
+        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
+        <dex dex="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/pre-dexed/release/com.android.support-recyclerview-v7-25.0.0_8c1be39be39448e8d979b1b16143c257739ab3a6.jar" />
+    </item>
+    <item
+        jar="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/pre-dexed/release/internal_impl-25.0.0_e1274efd5d8ed6c19ea0fb75da918d0ac76a27b8.jar" />
+    </item>
+    <item
+        jar="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/pre-dexed/release/internal_impl-25.0.0_d57136b2f560a5dd9a61d758f942b781f07eb7f8.jar" />
+    </item>
+    <item
+        jar="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/exploded-aar/com.github.medyo/fancybuttons/1.8.3/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.0"
+        sha1="db4790d8366d34973d7dca635e954b2e73de653d">
+        <dex dex="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/pre-dexed/release/com.github.medyo-fancybuttons-1.8.3_3c8a0688aa4a2c27c6592d15a94db3728a31ecf3.jar" />
+    </item>
+    <item
+        jar="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/pre-dexed/release/com.android.support-support-media-compat-25.0.0_69e2ceed0113d3bc7514ff3f3bdf561bbe65f20d.jar" />
+    </item>
+    <item
+        jar="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/exploded-aar/com.google.android/flexbox/0.2.4/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.0"
+        sha1="a228d336210997d8b2b0725b5aa821103d6be54b">
+        <dex dex="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/pre-dexed/release/com.google.android-flexbox-0.2.4_95453407364d20d4082d60b2f976419bc57152d1.jar" />
+    </item>
+    <item
+        jar="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/pre-dexed/release/com.android.support-support-v4-25.0.0_a7a51f1fa3a3f74755c6c749f201091ec1457d1a.jar" />
+    </item>
+    <item
+        jar="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/exploded-aar/com.github.vishal259/EasyFont/1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.0"
+        sha1="bca0e5b77966f2ab87b0cb301ade97f1fb8019c7">
+        <dex dex="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/pre-dexed/release/com.github.vishal259-EasyFont-1.0_93dd148262496cdd12edde858b67730ba35a2801.jar" />
+    </item>
+    <item
+        jar="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/libs/core.jar"
+        jumboMode="false"
+        revision="25.0.0"
+        sha1="bd6b097588487313f7a94914fb89d44238964977">
+        <dex dex="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/pre-dexed/release/core_c7fd0d1b0b385f10c2637ce71b22aff264bc042c.jar" />
+    </item>
+    <item
+        jar="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/pre-dexed/release/com.android.support-support-compat-25.0.0_68fe375790d73b5c826912b63d1bb7ef7ac0cc4b.jar" />
+    </item>
+    <item
+        jar="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/pre-dexed/release/com.android.support-support-fragment-25.0.0_68751b7bf3fe7539afc298eb5c9a103fdf8d4261.jar" />
+    </item>
+    <item
+        jar="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/exploded-aar/com.quickblox/quickblox-android-sdk-core/2.6.1/jars/libs/qb-gson2.2.1.jar"
+        jumboMode="false"
+        revision="25.0.0"
+        sha1="6c57970ea4e56ab3ba566bed5848dba5ae6f3df8">
+        <dex dex="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/pre-dexed/release/qb-gson2.2.1_459abf307d106660c71e2760e817626ea0bff0f7.jar" />
+    </item>
+    <item
+        jar="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/pre-dexed/release/internal_impl-25.0.0_3d55dc978fba9edbff3ee2e9911457f7bb1a5633.jar" />
+    </item>
+    <item
+        jar="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/exploded-aar/com.github.yesidlazaro/GmailBackground/1.1/jars/libs/additionnal.jar"
+        jumboMode="false"
+        revision="25.0.0"
+        sha1="8cef68843fe969bd8ed302daa1d87da3d9f4c348">
+        <dex dex="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/pre-dexed/release/additionnal_b01b61cb2fb039d23e52f218601e6598626af423.jar" />
+    </item>
+    <item
+        jar="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/exploded-aar/com.android.support/design/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.0"
+        sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
+        <dex dex="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/pre-dexed/release/com.android.support-design-25.0.0_bd7e9a7e9d1a744f05212710be026d9366abb603.jar" />
+    </item>
+    <item
+        jar="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/exploded-aar/com.github.yesidlazaro/GmailBackground/1.1/jars/libs/mail.jar"
+        jumboMode="false"
+        revision="25.0.0"
+        sha1="bff72833aa12ac9cebb002a884c3c9f058e321f3">
+        <dex dex="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/pre-dexed/release/mail_c67da78f6acabefc9efc9499f57d5c52f53a5861.jar" />
+    </item>
+    <item
+        jar="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/pre-dexed/release/com.android.support-support-vector-drawable-25.0.0_58ec0112537571008d2d1318bc342aa5f8ec5cbf.jar" />
+    </item>
+    <item
+        jar="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/exploded-aar/com.github.yesidlazaro/GmailBackground/1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.0"
+        sha1="8d1c22bbd985c22b78a55db8ce634614a9724834">
+        <dex dex="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/pre-dexed/release/com.github.yesidlazaro-GmailBackground-1.1_2057b1d4beb65eb5dd7cbef6ede812c2c3030b3a.jar" />
+    </item>
+    <item
+        jar="/Users/thankgodrichard/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar"
+        jumboMode="false"
+        revision="25.0.0"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/intermediates/pre-dexed/release/gson-2.8.0_00ff063b7a133cbceba13b7139add900f567ee18.jar" />
+    </item>
+
+</items>

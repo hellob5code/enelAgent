@@ -1,0 +1,4 @@
+int string app_name 0x7f020000
+int string msg_email_sent_successfully 0x7f020001
+int string msg_error_sending_email 0x7f020002
+int string msg_sending_email 0x7f020003

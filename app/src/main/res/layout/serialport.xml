@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="1">
+
+        <TableRow
+            android:id="@id/tableRow1"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/serialportnumber"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <Spinner
+                android:id="@id/spinnerSerialPort"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0" />
+
+            <TextView
+                android:id="@id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/baudrate"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <Spinner
+                android:id="@id/spinnerBaudrate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0" />
+
+            <Button
+                android:id="@id/btnOpen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/open" />
+
+        </TableRow>
+
+    </TableLayout>
+    <LinearLayout android:id="@id/linearLayout3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5.0dip"
+            android:layout_weight="0.04"
+            android:gravity="center_vertical" >
+
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/receivebuf" />
+
+            <Button
+                android:id="@+id/btnclean"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clean" />
+
+        </LinearLayout>
+        <LinearLayout android:gravity="right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:baselineAligned="false" android:layout_weight="1.0">
+
+            <CheckBox android:id="@id/checkBoxReceive" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hex" />
+        </LinearLayout>
+    </LinearLayout>
+    <EditText android:gravity="top|left|center" android:id="@id/editTextReceive" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:inputType="textMultiLine">
+        <requestFocus />
+    </EditText>
+    <LinearLayout android:id="@id/LinearLayout02" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_weight="1.0">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sendbuf" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5.0dip"
+            android:gravity="center_vertical" >
+
+            <CheckBox
+                android:id="@id/CheckBoxAuto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/autosend" />
+
+            <CheckBox
+                android:id="@+id/newline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/newline" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5.0dip"
+            android:layout_weight="0.69"
+            android:gravity="right" >
+
+            <CheckBox android:id="@id/CheckBoxSend" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hex" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@id/linearLayout4" android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@id/editTextSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.34" />
+
+        <Button
+            android:id="@id/btnSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/send" />
+
+    </LinearLayout>
+</LinearLayout>

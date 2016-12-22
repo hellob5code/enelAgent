@@ -1,0 +1,158 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shixels.activity.Game.GameType">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:layout_weight="1">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/threestarlogo"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/blueText2"
+                android:layout_weight="1">
+                <mehdi.sakout.fancybuttons.FancyButton
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/play"
+                    android:clickable="true"
+                    fancy:fb_textColor="@color/white"
+                    fancy:fb_textSize="23sp"
+                    fancy:fb_borderWidth="2dp"
+                    fancy:fb_radius="30dp"
+                    fancy:fb_borderColor="@color/white"
+                    fancy:fb_defaultColor="@color/redText"
+                    android:id="@+id/threestar"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center" />
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/fivestarlogo"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/redText"
+                android:layout_weight="1">
+
+                <mehdi.sakout.fancybuttons.FancyButton
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/play"
+                    android:clickable="true"
+                    fancy:fb_borderWidth="2dp"
+                    fancy:fb_textColor="@color/white"
+                    fancy:fb_textSize="23sp"
+                    fancy:fb_radius="30dp"
+                    fancy:fb_borderColor="@color/white"
+                    fancy:fb_defaultColor="@color/yellowText"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/fivestar" />
+
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/sixstarlogo"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/yellowText"
+                android:layout_weight="1">
+
+                <mehdi.sakout.fancybuttons.FancyButton
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/play"
+                    android:layout_centerInParent="true"
+                    android:clickable="true"
+                    android:contextClickable="false"
+                    fancy:fb_textColor="@color/white"
+                    fancy:fb_borderWidth="2dp"
+                    fancy:fb_radius="30dp"
+                    fancy:fb_textSize="23sp"
+                    fancy:fb_borderColor="@color/white"
+                    fancy:fb_defaultColor="@color/blueText2"
+                    android:id="@+id/sixstar" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</FrameLayout>

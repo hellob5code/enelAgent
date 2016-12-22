@@ -1,0 +1,65 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    tools:context="com.shixels.activity.Game.XtraPlay">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/blueText"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/xtraplaylogo_white"
+            android:layout_gravity="center_horizontal"/>
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:layout_gravity="center_horizontal"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:id="@+id/xplayHundred"
+            android:layout_marginBottom="10dp"
+            fancy:fb_textColor="@android:color/white"
+            fancy:fb_defaultColor="@color/redText"
+            android:text="@string/xplaHundred"/>
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:layout_gravity="center_horizontal"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:id="@+id/xplaytTwoHundred"
+            android:layout_marginBottom="10dp"
+            fancy:fb_textColor="@android:color/white"
+            fancy:fb_defaultColor="@color/redText"
+            android:text="@string/xplaTwoHundred"/>
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:layout_gravity="center_horizontal"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:id="@+id/xplaytThreeHundred"
+            android:layout_marginBottom="10dp"
+            fancy:fb_textColor="@android:color/white"
+            fancy:fb_defaultColor="@color/redText"
+            android:text="@string/xplathreeHundred"/>
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:layout_gravity="center_horizontal"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:id="@+id/noThanks"
+            fancy:fb_textColor="@color/blueText2"
+            fancy:fb_defaultColor="@android:color/white"
+            android:text="@string/nothanks"/>
+
+
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

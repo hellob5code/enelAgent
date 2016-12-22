@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="17"
+    density="mdpi"
+    format="7"
+    timestamp="21966566152746"
+    token="-7710350911751080935" >
+
+    <task
+        name="javac"
+        duration="2794" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="315" />
+    <task
+        name="verifier"
+        duration="27" />
+
+    <artifact
+        location="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="21966566152746" >
+        <artifact
+            location="/Users/thankgodrichard/Downloads/codecanyon-9858746-material-design-ui-android-template-app/UPDATE/android/android - AS/3505DEMO/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>
