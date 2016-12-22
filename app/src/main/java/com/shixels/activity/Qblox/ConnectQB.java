@@ -74,10 +74,10 @@ public class ConnectQB {
 
     private ConnectQB() {
     }
-    public static final String APP_ID = "50071";
-    public static final String AUTH_KEY = "urqaWJqEAREPAfB";
-    public static final String AUTH_SECRET = "duk8622kPqMXcfY";
-    public static final String ACCOUNT_KEY = "44L1JQ5GinG4ivqFHip5";
+    public static final String APP_ID = "";
+    public static final String AUTH_KEY = "";
+    public static final String AUTH_SECRET = "";
+    public static final String ACCOUNT_KEY = "";
 
 
 
